@@ -11,12 +11,15 @@ require (
 )
 
 require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/juju/clock v0.0.0-20190205081909-9c5c9712527c // indirect
 	github.com/juju/errors v0.0.0-20210818161939-5560c4c073ff // indirect
 	github.com/juju/loggo v0.0.0-20210728185423-eebad3a902c4 // indirect
 	github.com/juju/utils/v2 v2.0.0-20210305225158-eedbe7b6b3e2 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
