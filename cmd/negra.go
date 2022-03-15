@@ -14,12 +14,9 @@ import (
 	"k8s.io/klog"
 )
 
-var logLevel uint
-
 var displayFlagSet = &cli.Command{
-	Name:    "displayFlagSet",
-	Aliases: []string{"dfs"},
-	Usage:   "display FlagSet",
+	Name:  "debug-displayFlagSet",
+	Usage: "display FlagSet",
 	Action: func(_ *urfaveCli.Context) error {
 		flag.CommandLine.VisitAll(func(flg *flag.Flag) {
 			fmt.Printf("[%s]=[%s]\n", flg.Name, flg.Value)
