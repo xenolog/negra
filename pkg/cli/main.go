@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/urfave/cli"
+	cli "github.com/urfave/cli/v2"
 	ngConfig "github.com/xenolog/negra/pkg/config"
 )
 
